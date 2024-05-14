@@ -1,0 +1,17 @@
+.square {
+    color: black;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+
+}
+
+.circle {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+
+    background-color: aqua;
+
+}

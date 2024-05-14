@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 35px;
+    max-width: 100px;
+}
+
+body {
+    background-image: url(5429296.jpg);
+    border-width: 20px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .about {
+    width: 700px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100px;
+    margin: auto;
+    align-items: center;
+} */
+
+h2 {
+    color: rgb(194, 247, 150);
+    text-align: center;
+    font-size: 69px;
+    letter-spacing: 13px;
+    font-family: 'Open Sans', 'Roboto';
+    line-height: 70px;
+}
+
+.about {
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.contact {
+    text-align: right;
+}
+
+.fa {
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: lightgray;
+}
+
+.fa-twitter {
+    color: lightgray;
+}
+
+.fa-instagram {
+    color: lightgray;
+}
+
+.fa-linkedin {
+    color: lightgray;
+}
+
+.fa-whatsapp {
+    color: lightgray;
+}
+
+p {
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+
+.Welcome {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 231);
+    font-size: 25px;
+    padding: 0;
+}
+
+.signin {
+    color: wheat;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    width: 150px;
+    background-color: rgb(0, 6, 15);
+    margin: auto;
+    display: block;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.Welcome:hover {
+    opacity: 0.5;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    margin-top: auto;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    font-family: Geneva, Verdana, sans-serif;
+}
